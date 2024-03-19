@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="903.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.strashno.Controller">
+   <children>
+      <GridPane fx:id="secondTrain" gridLinesVisible="true" layoutX="29.0" layoutY="280.0" prefHeight="25.0" prefWidth="375.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <GridPane fx:id="firstTrain" gridLinesVisible="true" layoutX="495.0" layoutY="281.0" prefHeight="25.0" prefWidth="375.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <GridPane fx:id="stack" gridLinesVisible="true" layoutX="439.0" layoutY="349.0" prefHeight="250.0" prefWidth="25.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <Line endX="495.0" endY="58.0" fill="#ff1111" layoutX="1.0" layoutY="247.0" startX="464.0" startY="102.0" />
+      <Line endX="454.0" endY="339.0" layoutX="10.0" layoutY="10.0" startX="461.0" startY="321.0" />
+      <Line endX="446.0" endY="82.0" layoutX="18.0" layoutY="267.0" startX="463.0" startY="73.0" />
+      <TextField fx:id="inputText" alignment="CENTER_RIGHT" editable="false" layoutX="495.0" layoutY="232.0" onMouseClicked="#handleCalculator" prefHeight="36.0" prefWidth="375.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Line endX="499.0" endY="295.0" layoutX="-95.0" layoutY="10.0" startX="505.0" startY="310.0" />
+      <Line endX="428.0" endY="93.0" layoutX="-13.0" layoutY="220.0" startX="416.79290771484375" startY="83.79287719726562" />
+      <Line endX="467.0" endY="101.0" layoutX="-28.0" layoutY="248.0" startX="432.0" startY="57.0" />
+      <Line endX="485.0" endY="35.5" layoutX="11.0" layoutY="257.0" startX="394.0" startY="35.5" />
+      <Line endX="436.5" endY="110.0" layoutX="-32.0" layoutY="182.0" startX="449.0" startY="100.0" />
+      <Line endX="374.5" endY="55.0" layoutX="30.0" layoutY="238.0" startX="388.4141845703125" startY="67.4141845703125" />
+      <Text layoutX="444.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="489.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="402.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <GridPane fx:id="Deikstra" gridLinesVisible="true" layoutX="29.0" layoutY="438.0" prefHeight="245.0" prefWidth="245.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <MenuBar fx:id="menuForHelp" layoutX="-1.0" layoutY="2.0" prefHeight="1.0" prefWidth="903.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Справка">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Помощь по интерфейсу" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextField layoutX="29.0" layoutY="232.0" prefHeight="36.0" prefWidth="375.0" />
+      <TextArea layoutX="30.0" layoutY="75.0" opacity="0.21" prefHeight="145.0" prefWidth="841.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="27.0" layoutY="312.0" opacity="0.21" prefHeight="110.0" prefWidth="332.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="522.0" layoutY="339.0" opacity="0.21" prefHeight="386.0" prefWidth="338.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
