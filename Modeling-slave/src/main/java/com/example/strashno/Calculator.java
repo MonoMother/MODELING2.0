@@ -23,7 +23,6 @@ public class Calculator implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {}
 
-
     @FXML
     private void onButtonClick(ActionEvent event) {
         if (event.getTarget() instanceof Button btn) {
@@ -37,7 +36,10 @@ public class Calculator implements Initializable {
             outputTF.setText(outputTF.getText().substring(0, outputTF.getText().length() - 1));
         }
     }
-
+    @FXML
+    private void onDELALLClick(ActionEvent event) {
+        outputTF.setText("");
+    }
     @FXML
     private void onOKClick(ActionEvent event) {
         controller.setText(outputTF.getText()); // Используем ссылку на Controller для установки текста

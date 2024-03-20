@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="423.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.strashno.Calculator">
+<AnchorPane prefHeight="426.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.strashno.Calculator">
    <children>
-      <TextField fx:id="outputTF" alignment="CENTER_RIGHT" editable="false" layoutX="34.0" layoutY="29.0" prefHeight="63.0" prefWidth="314.0">
+      <TextField fx:id="outputTF" alignment="CENTER_RIGHT" editable="false" layoutX="22.0" layoutY="29.0" prefHeight="63.0" prefWidth="414.0">
          <font>
             <Font size="29.0" />
          </font>
@@ -42,7 +42,7 @@
             <Font size="29.0" />
          </font>
       </Button>
-      <Button layoutX="200.0" layoutY="179.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="63.0" prefWidth="67.0" text="x" textAlignment="CENTER">
+      <Button layoutX="199.0" layoutY="179.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="63.0" prefWidth="67.0" text="*" textAlignment="CENTER">
          <font>
             <Font size="29.0" />
          </font>
@@ -57,7 +57,7 @@
             <Font size="29.0" />
          </font>
       </Button>
-      <Button layoutX="196.0" layoutY="261.0" mnemonicParsing="false" onAction="#onDELClick" prefHeight="63.0" prefWidth="150.0" text="Стереть">
+      <Button layoutX="297.0" layoutY="261.0" mnemonicParsing="false" onAction="#onDELClick" prefHeight="63.0" prefWidth="149.0" text="Стереть">
          <font>
             <Font size="29.0" />
          </font>
@@ -67,17 +67,27 @@
             <Font size="29.0" />
          </font>
       </Button>
-      <Button layoutX="34.0" layoutY="337.0" mnemonicParsing="false" onAction="#onOKClick" prefHeight="62.0" prefWidth="130.0" text="Готово">
+      <Button layoutX="34.0" layoutY="348.0" mnemonicParsing="false" onAction="#onOKClick" prefHeight="63.0" prefWidth="149.0" text="Готово">
          <font>
             <Font size="29.0" />
          </font>
       </Button>
-      <Button layoutX="172.0" layoutY="337.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="62.0" prefWidth="78.0" text="sin">
+      <Button layoutX="214.0" layoutY="348.0" mnemonicParsing="false" onAction="#onDELALLClick" prefHeight="46.0" prefWidth="232.0" text="Стереть всё">
          <font>
             <Font size="29.0" />
          </font>
       </Button>
-      <Button layoutX="259.0" layoutY="337.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="62.0" prefWidth="86.0" text="cos">
+      <Button layoutX="368.0" layoutY="100.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="63.0" prefWidth="67.0" text="^">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="199.0" layoutY="261.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="63.0" prefWidth="90.0" text="sin">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="356.0" layoutY="181.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="63.0" prefWidth="90.0" text="cos">
          <font>
             <Font size="29.0" />
          </font>

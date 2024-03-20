@@ -7,7 +7,6 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-
 public class InFixToPostFix extends Application {
     @Override
     public void start(Stage stage) throws IOException {
@@ -19,14 +18,6 @@ public class InFixToPostFix extends Application {
 
     }
     public static void main(String[] args) {
-        /*
-        Controller controller = new Controller();
-        String infixExpression = "(A*B)/(D-C)";
-        String postfixExpression = controller.convert(infixExpression);
-        System.out.println("Инфиксное выражение: " + infixExpression);
-        System.out.println("Постфиксное выражение: " + postfixExpression);
-*/
         launch();
-
     }
 }
